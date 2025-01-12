@@ -1,0 +1,18 @@
+---
+pagination:
+    data: snippetlog
+    size: 1
+    alias: snip
+    addAllPagesToCollections: true
+tags: snippet
+permalink: "/snippet/{{snip.title | slugify }}.html"
+eleventyComputed:
+  title: "{{ snip.title }}"
+  link: "/snippet/{{snip.title | slugify}}"
+---
+
+{{snip.title}}
+<br/>
+<code>
+    <pre>{{snip.content}}</pre>
+<code>

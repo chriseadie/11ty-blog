@@ -1,0 +1,16 @@
+---
+title: chriseadie.com
+---
+{% extends "components/base.njk"%}
+
+{% block content%}
+testing
+<ul>
+    {%- for post in collections.post -%}
+    <li>
+        <a href="{{post.data.link}}"> {{ post.data.title }}</a>
+    </li>
+    {%- endfor -%}
+</ul>
+
+{% endblock %}

@@ -1,0 +1,16 @@
+---
+pagination:
+    data: awesomecontent
+    size: 1
+    alias: crs
+    addAllPagesToCollections: true
+tags: post
+permalink: "/blog/{{crs.title | slugify }}.html"
+eleventyComputed:
+  title: "{{ crs.title }}"
+  link: "/blog/{{crs.title | slugify}}"
+---
+
+{{crs.title}}
+<br/>
+{{crs.content}}

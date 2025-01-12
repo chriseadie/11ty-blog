@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://chriseadie.com/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chris Eadie Blog</title>
+    <link>https://chriseadie.com/</link>
+    <atom:link href="https://chriseadie.com/feed.xml" rel="self" type="application/rss+xml" />
+    <description>This is a longer description about your blog.</description>
+    <language>en</language>
+    <item>
+      <title>data driven post 4</title>
+      <link>https://chriseadie.com/blog/data-driven-post-4.html</link>
+      <description>
+data driven post 4
+&lt;br&gt;
+this is good content ya</description>
+      <pubDate>Thu, 02 Jan 2025 13:06:08 GMT</pubDate>
+      <dc:creator>Chris Eadie</dc:creator>
+      <guid>https://chriseadie.com/blog/data-driven-post-4.html</guid>
+    </item>
+    <item>
+      <title>data driven post 3</title>
+      <link>https://chriseadie.com/blog/data-driven-post-3.html</link>
+      <description>
+data driven post 3
+&lt;br&gt;
+this is good content ya</description>
+      <pubDate>Thu, 02 Jan 2025 13:06:08 GMT</pubDate>
+      <dc:creator>Chris Eadie</dc:creator>
+      <guid>https://chriseadie.com/blog/data-driven-post-3.html</guid>
+    </item>
+    <item>
+      <title>data driven post 2</title>
+      <link>https://chriseadie.com/blog/data-driven-post-2.html</link>
+      <description>
+data driven post 2
+&lt;br&gt;
+this is good content ya</description>
+      <pubDate>Thu, 02 Jan 2025 13:06:08 GMT</pubDate>
+      <dc:creator>Chris Eadie</dc:creator>
+      <guid>https://chriseadie.com/blog/data-driven-post-2.html</guid>
+    </item>
+    <item>
+      <title>data driven post 1</title>
+      <link>https://chriseadie.com/blog/data-driven-post-1.html</link>
+      <description>
+data driven post 1
+&lt;br&gt;
+this is good content ya</description>
+      <pubDate>Thu, 02 Jan 2025 13:06:08 GMT</pubDate>
+      <dc:creator>Chris Eadie</dc:creator>
+      <guid>https://chriseadie.com/blog/data-driven-post-1.html</guid>
+    </item>
+  </channel>
+</rss>
