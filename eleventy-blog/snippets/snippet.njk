@@ -11,8 +11,12 @@ eleventyComputed:
   link: "/snippet/{{snip.title | slugify}}"
 ---
 
+{% extends "components/base.njk"%}
+
+{% block content %}
 {{snip.title}}
 <br/>
 <code>
     <pre>{{snip.content}}</pre>
-<code>
+</code>
+{% endblock %}

@@ -4,15 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>chriseadie.com</title>
+    <meta name="description" content="Software engineer expeienced in creating immersive front end web apps and highly scalable backend microservices">
+    <meta property="og:title" content="chriseadie.com | Chris Eadie | Software Engineer">
+    <title>chriseadie.com | Chris Eadie | Software Engineer</title>
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <header>
         <div class="menu-bar">
             <div>
-                <label>Menu</label>
+                <button class="no-style">Menu</label>
             </div>
             <div class="site-name">
                 <h1>Chris Eadie</h1>
@@ -22,23 +28,60 @@
     </header>
 
     
-testing
-<ul><li>
-        <a href="/blog/data-driven-post-1"> data driven post 1</a>
-    </li><li>
-        <a href="/blog/data-driven-post-2"> data driven post 2</a>
-    </li><li>
-        <a href="/blog/data-driven-post-3"> data driven post 3</a>
-    </li><li>
-        <a href="/blog/data-driven-post-4"> data driven post 4</a>
-    </li></ul>
+<section id="intro-section">
+    <h1>Hello, I'm Chris!</h1>
+    <span>Welcome to my little corner of the internet</span>
+</section>
+<section id="blog-post-section">
+    <h2>Blog Posts</h2><a href="/blog/data-driven-post-1">
+        <div>
+        data driven post 1
+        </div>
+    </a><a href="/blog/data-driven-post-2">
+        <div>
+        data driven post 2
+        </div>
+    </a><a href="/blog/data-driven-post-3">
+        <div>
+        data driven post 3
+        </div>
+    </a><a href="/blog/data-driven-post-4">
+        <div>
+        data driven post 4
+        </div>
+    </a></section>
+<section id="code-snippet-section">
+    <h2>My Code Snippets</h2><a href="/snippet/how-to-define-a-variable">
+        <div>
+        how to define a variable
+        </div>
+    </a></section>
 
 
 
+    <section id="newsletter">
+        <div>Join the newsletter if I ever decide to release one</div>
+        <div class="form-container">
+            <form>
+                <input type="text" placeholder="Email Address"/>
+                <button>Subscribe</button>
+            </form>
+        </div>
+    </section>
+    <section id="links">
+        <div class="link-container">
+            <a href="https://www.instagram.com/chris_eadie/" class="link-item">Instagram</a>
+            <a href="https://www.youtube.com/@chriseadie7089" class="link-item">Youtube</a>
+            <a href="" class="link-item">TikTok</a>
+        </div>
+        <div class="link-container">
+            <a href="mailto:caeadie9@gmail.com" class="link-item">Email</a>
+        </div>
+    </section>
     <footer>
-        Footer content
+        © <span id="copyright-year"></span>, ChrisEadie.com
     </footer>
-
+    <script>document.querySelector("#copyright-year").textContent = new Date().getFullYear()</script>
 </body>
 
 </html>

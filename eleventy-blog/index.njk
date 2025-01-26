@@ -4,13 +4,29 @@ title: chriseadie.com
 {% extends "components/base.njk"%}
 
 {% block content%}
-testing
-<ul>
+<section id="intro-section">
+    <h1>Hello, I'm Chris!</h1>
+    <span>Welcome to my little corner of the internet</span>
+</section>
+<section id="blog-post-section">
+    <h2>Blog Posts</h2>
     {%- for post in collections.post -%}
-    <li>
-        <a href="{{post.data.link}}"> {{ post.data.title }}</a>
-    </li>
+    <a href="{{post.data.link}}">
+        <div>
+        {{ post.data.title }}
+        </div>
+    </a>
     {%- endfor -%}
-</ul>
+</section>
+<section id="code-snippet-section">
+    <h2>My Code Snippets</h2>
+    {%- for post in collections.snippet -%}
+    <a href="{{post.data.link}}">
+        <div>
+        {{ post.data.title }}
+        </div>
+    </a>
+    {%- endfor -%}
+</section>
 
 {% endblock %}

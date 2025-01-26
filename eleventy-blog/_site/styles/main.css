@@ -1,22 +1,29 @@
-
 body {
     margin: 0px;
     padding: 0px;
+    background: #f1f1f1;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.menu-bar{
+/* removing styles from buttons */
+.no-style {
+    border: none;
+    cursor: pointer;
+}
+
+.menu-bar {
+    margin-top: 20px;
     display: flex;
     height: 80px;
-    background-color: lightgrey;
     border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
-.menu-bar label {
-    width:80px;
+.menu-bar button {
+    width: 80px;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -31,8 +38,59 @@ body {
     height: 80px;
 }
 
-.navbar-container{
-    height:50px;
-    background-color: lightgrey;
+.navbar-container {
+    height: 50px;
     border-bottom: 1px solid black;
+}
+
+section#intro-section {
+    background-image: Url("/assets/minimal-code-setup.jpg");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+}
+
+section#newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 90px;
+    padding-right: 10px;
+    border-top: 1px solid black;
+}
+
+section#newsletter .form-container {
+    padding-left: 20px;
+}
+
+section#links {
+    display: flex;
+    border-top: 1px solid black;
+}
+
+section#links>.link-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+section#links>.link-container:nth-child(2) {
+    border-left: 1px solid black;
+}
+
+section#links>.link-container>a.link-item {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
 }

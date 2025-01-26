@@ -4,15 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <meta name="description" content="Software engineer expeienced in creating immersive front end web apps and highly scalable backend microservices">
+    <meta property="og:title" content="Contact | Chris Eadie | Software Engineer">
+    <title>Contact | Chris Eadie | Software Engineer</title>
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <header>
         <div class="menu-bar">
             <div>
-                <label>Menu</label>
+                <button class="no-style">Menu</label>
             </div>
             <div class="site-name">
                 <h1>Chris Eadie</h1>
@@ -40,10 +46,29 @@
 
 
 
+    <section id="newsletter">
+        <div>Join the newsletter if I ever decide to release one</div>
+        <div class="form-container">
+            <form>
+                <input type="text" placeholder="Email Address"/>
+                <button>Subscribe</button>
+            </form>
+        </div>
+    </section>
+    <section id="links">
+        <div class="link-container">
+            <a href="https://www.instagram.com/chris_eadie/" class="link-item">Instagram</a>
+            <a href="https://www.youtube.com/@chriseadie7089" class="link-item">Youtube</a>
+            <a href="" class="link-item">TikTok</a>
+        </div>
+        <div class="link-container">
+            <a href="mailto:caeadie9@gmail.com" class="link-item">Email</a>
+        </div>
+    </section>
     <footer>
-        Footer content
+        © <span id="copyright-year"></span>, ChrisEadie.com
     </footer>
-
+    <script>document.querySelector("#copyright-year").textContent = new Date().getFullYear()</script>
 </body>
 
 </html>

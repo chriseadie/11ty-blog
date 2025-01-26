@@ -10,7 +10,10 @@ eleventyComputed:
   title: "{{ crs.title }}"
   link: "/blog/{{crs.title | slugify}}"
 ---
+{% extends "components/base.njk"%}
 
+{% block content%}
 {{crs.title}}
 <br/>
 {{crs.content}}
+{% endblock %}
