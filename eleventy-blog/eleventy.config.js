@@ -5,7 +5,9 @@ export default function (eleventyConfig) {
     eleventyConfig.addWatchTarget("./styles/main.css")
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("./javascript/main.js");
-    eleventyConfig.addWatchTarget("./javascript/main.js")
+    eleventyConfig.addWatchTarget("./javascript/main.js");
+
+    eleventyConfig.addNunjucksFilter("limit", (arr, limit) => arr.slice(0, limit));
 
     eleventyConfig.addPlugin(feedPlugin, {
         type: "rss",

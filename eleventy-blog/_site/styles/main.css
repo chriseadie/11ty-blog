@@ -1,17 +1,100 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: #f1f1f1;
+    background: whitesmoke;
 }
+
+p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+p,
+a,
+footer,
+label {
+    font-family: eadiesans;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: eadieserif;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "eadieserif";
+    src:
+        url("/assets/DMSerifText-Regular.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "eadiesans";
+    src:
+        url("/assets/DMSans-Regular.ttf");
+    font-weight: bold;
+}
+
+.bb1 {
+    border-bottom: 1px solid black;
+}
+
+hr {
+    display: block;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.pr-2 {
+    padding-right: 20px;
+}
+
+.p-1 {
+    padding: 10px;
+}
+.p-2 {
+    padding: 20px;
+}
+
+
 
 .d-flex {
     display: flex;
+}
+
+.content-container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 /* removing styles from buttons */
 .no-style {
     border: none;
     cursor: pointer;
+    background-color: transparent;
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+    background: whitesmoke;
 }
 
 .menu-bar {
@@ -36,6 +119,8 @@ body {
     justify-content: center;
     width: 100%;
     height: 80px;
+    font-family: 'eadieserif';
+    font-size: 26px;
 }
 
 .navbar-container {
@@ -43,45 +128,104 @@ body {
     border-bottom: 1px solid black;
 }
 
-section#intro-section {
-    background-image: Url("/assets/minimal-code-setup.jpg");
-    height: 80vh;
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text,
+.intro-image {
+    width: 100%;
+}
+
+.intro-image {
+    margin-top: 40px;
+    background-image: url("/assets/head_shot.jpg");
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 700px
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: eadiesans;
+    font-weight: 600;
+    font-size: 50px;
+    justify-content: center;
+}
+
+section#intro-section {
+    height: 780px;
+}
+
+section#blog-post-section {
+    border-top: 1px solid black;
+}
+
+section#code-snippet-section {
+    border-top: 1px solid black;
+}
+
+.section-title {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.link-card {
+    min-height: 300px;
+    width: 25%;
+    border-left: 1px solid black;
 
 }
 
+.link-card:last-child {
+    border-right: 1px solid black;
+}
+
+.link-image {
+    height:200px;
+    width:100%;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 section#newsletter {
-    display: flex;
-    align-items: center;
-    justify-content: end;
     height: 90px;
     padding-right: 10px;
     border-top: 1px solid black;
 }
 
-section#newsletter .form-container {
-    padding-left: 20px;
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 90px;
 }
+
 
 section#links {
     display: flex;
     border-top: 1px solid black;
 }
 
-section#links>.link-container {
+section#links .link-container {
     width: 50%;
     display: flex;
     flex-direction: column;
 }
 
-section#links>.link-container:nth-child(2) {
+section#links .link-container:nth-child(2) {
     border-left: 1px solid black;
 }
 
-section#links>.link-container>a.link-item {
+section#links .link-container a.link-item {
     text-decoration: none;
     color: black;
     padding: 10px;

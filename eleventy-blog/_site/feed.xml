@@ -7,6 +7,82 @@
     <description>This is a longer description about your blog.</description>
     <language>en</language>
     <item>
+      <title>data driven post 5</title>
+      <link>https://chriseadie.com/blog/data-driven-post-5.html</link>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;Software engineer expeienced in creating immersive front end web apps and highly scalable backend microservices&quot;&gt;
+    &lt;meta property=&quot;og:title&quot; content=&quot;data driven post 5 | Chris Eadie | Software Engineer&quot;&gt;
+    &lt;title&gt;data driven post 5 | Chris Eadie | Software Engineer&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://chriseadie.com/styles/main.css&quot;&gt;
+    &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
+    &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin=&quot;&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;div class=&quot;menu-bar&quot;&gt;
+            &lt;div&gt;
+                &lt;button class=&quot;no-style&quot;&gt;Menu
+            &lt;/button&gt;&lt;/div&gt;
+            &lt;div class=&quot;site-name&quot;&gt;
+                &lt;h1&gt;Chris Eadie&lt;/h1&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/header&gt;
+
+    
+data driven post 5
+&lt;br&gt;
+this is good content ya
+
+
+    &lt;section id=&quot;newsletter&quot;&gt;
+        &lt;div class=&quot;content-container&quot;&gt;
+            &lt;div class=&quot;newsletter&quot;&gt;
+                &lt;p class=&quot;pr-2&quot;&gt;Join the newsletter if I ever decide to release one&lt;/p&gt;
+                &lt;div class=&quot;form-container&quot;&gt;
+                    &lt;form&gt;
+                        &lt;input type=&quot;text&quot; placeholder=&quot;Email Address&quot;&gt;
+                        &lt;button&gt;Subscribe&lt;/button&gt;
+                    &lt;/form&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section id=&quot;links&quot;&gt;
+        &lt;div class=&quot;content-container w-100&quot;&gt;
+            &lt;div class=&quot;d-flex&quot;&gt;
+                &lt;div class=&quot;link-container&quot;&gt;
+                    &lt;a href=&quot;https://www.instagram.com/chris_eadie/&quot; class=&quot;link-item&quot;&gt;Instagram&lt;/a&gt;
+                    &lt;a href=&quot;https://www.youtube.com/@chriseadie7089&quot; class=&quot;link-item&quot;&gt;Youtube&lt;/a&gt;
+                    &lt;a href=&quot;https://chriseadie.com/blog/data-driven-post-5.html&quot; class=&quot;link-item&quot;&gt;TikTok&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;link-container&quot;&gt;
+                    &lt;a href=&quot;mailto:caeadie9@gmail.com&quot; class=&quot;link-item&quot;&gt;Email&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+    &lt;footer&gt;
+        © &lt;span id=&quot;copyright-year&quot;&gt;&lt;/span&gt;, ChrisEadie.com
+    &lt;/footer&gt;
+    &lt;script&gt;document.querySelector(&quot;#copyright-year&quot;).textContent = new Date().getFullYear()&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</description>
+      <pubDate>Mon, 13 Jan 2025 20:29:57 GMT</pubDate>
+      <dc:creator>Chris Eadie</dc:creator>
+      <guid>https://chriseadie.com/blog/data-driven-post-5.html</guid>
+    </item>
+    <item>
       <title>data driven post 4</title>
       <link>https://chriseadie.com/blog/data-driven-post-4.html</link>
       <description>&lt;!DOCTYPE html&gt;
@@ -45,22 +121,30 @@ this is good content ya
 
 
     &lt;section id=&quot;newsletter&quot;&gt;
-        &lt;div&gt;Join the newsletter if I ever decide to release one&lt;/div&gt;
-        &lt;div class=&quot;form-container&quot;&gt;
-            &lt;form&gt;
-                &lt;input type=&quot;text&quot; placeholder=&quot;Email Address&quot;&gt;
-                &lt;button&gt;Subscribe&lt;/button&gt;
-            &lt;/form&gt;
+        &lt;div class=&quot;content-container&quot;&gt;
+            &lt;div class=&quot;newsletter&quot;&gt;
+                &lt;p class=&quot;pr-2&quot;&gt;Join the newsletter if I ever decide to release one&lt;/p&gt;
+                &lt;div class=&quot;form-container&quot;&gt;
+                    &lt;form&gt;
+                        &lt;input type=&quot;text&quot; placeholder=&quot;Email Address&quot;&gt;
+                        &lt;button&gt;Subscribe&lt;/button&gt;
+                    &lt;/form&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/section&gt;
     &lt;section id=&quot;links&quot;&gt;
-        &lt;div class=&quot;link-container&quot;&gt;
-            &lt;a href=&quot;https://www.instagram.com/chris_eadie/&quot; class=&quot;link-item&quot;&gt;Instagram&lt;/a&gt;
-            &lt;a href=&quot;https://www.youtube.com/@chriseadie7089&quot; class=&quot;link-item&quot;&gt;Youtube&lt;/a&gt;
-            &lt;a href=&quot;https://chriseadie.com/blog/data-driven-post-4.html&quot; class=&quot;link-item&quot;&gt;TikTok&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;link-container&quot;&gt;
-            &lt;a href=&quot;mailto:caeadie9@gmail.com&quot; class=&quot;link-item&quot;&gt;Email&lt;/a&gt;
+        &lt;div class=&quot;content-container w-100&quot;&gt;
+            &lt;div class=&quot;d-flex&quot;&gt;
+                &lt;div class=&quot;link-container&quot;&gt;
+                    &lt;a href=&quot;https://www.instagram.com/chris_eadie/&quot; class=&quot;link-item&quot;&gt;Instagram&lt;/a&gt;
+                    &lt;a href=&quot;https://www.youtube.com/@chriseadie7089&quot; class=&quot;link-item&quot;&gt;Youtube&lt;/a&gt;
+                    &lt;a href=&quot;https://chriseadie.com/blog/data-driven-post-4.html&quot; class=&quot;link-item&quot;&gt;TikTok&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;link-container&quot;&gt;
+                    &lt;a href=&quot;mailto:caeadie9@gmail.com&quot; class=&quot;link-item&quot;&gt;Email&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/section&gt;
     &lt;footer&gt;
@@ -113,22 +197,30 @@ this is good content ya
 
 
     &lt;section id=&quot;newsletter&quot;&gt;
-        &lt;div&gt;Join the newsletter if I ever decide to release one&lt;/div&gt;
-        &lt;div class=&quot;form-container&quot;&gt;
-            &lt;form&gt;
-                &lt;input type=&quot;text&quot; placeholder=&quot;Email Address&quot;&gt;
-                &lt;button&gt;Subscribe&lt;/button&gt;
-            &lt;/form&gt;
+        &lt;div class=&quot;content-container&quot;&gt;
+            &lt;div class=&quot;newsletter&quot;&gt;
+                &lt;p class=&quot;pr-2&quot;&gt;Join the newsletter if I ever decide to release one&lt;/p&gt;
+                &lt;div class=&quot;form-container&quot;&gt;
+                    &lt;form&gt;
+                        &lt;input type=&quot;text&quot; placeholder=&quot;Email Address&quot;&gt;
+                        &lt;button&gt;Subscribe&lt;/button&gt;
+                    &lt;/form&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/section&gt;
     &lt;section id=&quot;links&quot;&gt;
-        &lt;div class=&quot;link-container&quot;&gt;
-            &lt;a href=&quot;https://www.instagram.com/chris_eadie/&quot; class=&quot;link-item&quot;&gt;Instagram&lt;/a&gt;
-            &lt;a href=&quot;https://www.youtube.com/@chriseadie7089&quot; class=&quot;link-item&quot;&gt;Youtube&lt;/a&gt;
-            &lt;a href=&quot;https://chriseadie.com/blog/data-driven-post-3.html&quot; class=&quot;link-item&quot;&gt;TikTok&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;link-container&quot;&gt;
-            &lt;a href=&quot;mailto:caeadie9@gmail.com&quot; class=&quot;link-item&quot;&gt;Email&lt;/a&gt;
+        &lt;div class=&quot;content-container w-100&quot;&gt;
+            &lt;div class=&quot;d-flex&quot;&gt;
+                &lt;div class=&quot;link-container&quot;&gt;
+                    &lt;a href=&quot;https://www.instagram.com/chris_eadie/&quot; class=&quot;link-item&quot;&gt;Instagram&lt;/a&gt;
+                    &lt;a href=&quot;https://www.youtube.com/@chriseadie7089&quot; class=&quot;link-item&quot;&gt;Youtube&lt;/a&gt;
+                    &lt;a href=&quot;https://chriseadie.com/blog/data-driven-post-3.html&quot; class=&quot;link-item&quot;&gt;TikTok&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;link-container&quot;&gt;
+                    &lt;a href=&quot;mailto:caeadie9@gmail.com&quot; class=&quot;link-item&quot;&gt;Email&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/section&gt;
     &lt;footer&gt;
@@ -181,22 +273,30 @@ this is good content ya
 
 
     &lt;section id=&quot;newsletter&quot;&gt;
-        &lt;div&gt;Join the newsletter if I ever decide to release one&lt;/div&gt;
-        &lt;div class=&quot;form-container&quot;&gt;
-            &lt;form&gt;
-                &lt;input type=&quot;text&quot; placeholder=&quot;Email Address&quot;&gt;
-                &lt;button&gt;Subscribe&lt;/button&gt;
-            &lt;/form&gt;
+        &lt;div class=&quot;content-container&quot;&gt;
+            &lt;div class=&quot;newsletter&quot;&gt;
+                &lt;p class=&quot;pr-2&quot;&gt;Join the newsletter if I ever decide to release one&lt;/p&gt;
+                &lt;div class=&quot;form-container&quot;&gt;
+                    &lt;form&gt;
+                        &lt;input type=&quot;text&quot; placeholder=&quot;Email Address&quot;&gt;
+                        &lt;button&gt;Subscribe&lt;/button&gt;
+                    &lt;/form&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/section&gt;
     &lt;section id=&quot;links&quot;&gt;
-        &lt;div class=&quot;link-container&quot;&gt;
-            &lt;a href=&quot;https://www.instagram.com/chris_eadie/&quot; class=&quot;link-item&quot;&gt;Instagram&lt;/a&gt;
-            &lt;a href=&quot;https://www.youtube.com/@chriseadie7089&quot; class=&quot;link-item&quot;&gt;Youtube&lt;/a&gt;
-            &lt;a href=&quot;https://chriseadie.com/blog/data-driven-post-2.html&quot; class=&quot;link-item&quot;&gt;TikTok&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;link-container&quot;&gt;
-            &lt;a href=&quot;mailto:caeadie9@gmail.com&quot; class=&quot;link-item&quot;&gt;Email&lt;/a&gt;
+        &lt;div class=&quot;content-container w-100&quot;&gt;
+            &lt;div class=&quot;d-flex&quot;&gt;
+                &lt;div class=&quot;link-container&quot;&gt;
+                    &lt;a href=&quot;https://www.instagram.com/chris_eadie/&quot; class=&quot;link-item&quot;&gt;Instagram&lt;/a&gt;
+                    &lt;a href=&quot;https://www.youtube.com/@chriseadie7089&quot; class=&quot;link-item&quot;&gt;Youtube&lt;/a&gt;
+                    &lt;a href=&quot;https://chriseadie.com/blog/data-driven-post-2.html&quot; class=&quot;link-item&quot;&gt;TikTok&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;link-container&quot;&gt;
+                    &lt;a href=&quot;mailto:caeadie9@gmail.com&quot; class=&quot;link-item&quot;&gt;Email&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/section&gt;
     &lt;footer&gt;
@@ -249,22 +349,30 @@ this is good content ya
 
 
     &lt;section id=&quot;newsletter&quot;&gt;
-        &lt;div&gt;Join the newsletter if I ever decide to release one&lt;/div&gt;
-        &lt;div class=&quot;form-container&quot;&gt;
-            &lt;form&gt;
-                &lt;input type=&quot;text&quot; placeholder=&quot;Email Address&quot;&gt;
-                &lt;button&gt;Subscribe&lt;/button&gt;
-            &lt;/form&gt;
+        &lt;div class=&quot;content-container&quot;&gt;
+            &lt;div class=&quot;newsletter&quot;&gt;
+                &lt;p class=&quot;pr-2&quot;&gt;Join the newsletter if I ever decide to release one&lt;/p&gt;
+                &lt;div class=&quot;form-container&quot;&gt;
+                    &lt;form&gt;
+                        &lt;input type=&quot;text&quot; placeholder=&quot;Email Address&quot;&gt;
+                        &lt;button&gt;Subscribe&lt;/button&gt;
+                    &lt;/form&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/section&gt;
     &lt;section id=&quot;links&quot;&gt;
-        &lt;div class=&quot;link-container&quot;&gt;
-            &lt;a href=&quot;https://www.instagram.com/chris_eadie/&quot; class=&quot;link-item&quot;&gt;Instagram&lt;/a&gt;
-            &lt;a href=&quot;https://www.youtube.com/@chriseadie7089&quot; class=&quot;link-item&quot;&gt;Youtube&lt;/a&gt;
-            &lt;a href=&quot;https://chriseadie.com/blog/data-driven-post-1.html&quot; class=&quot;link-item&quot;&gt;TikTok&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;link-container&quot;&gt;
-            &lt;a href=&quot;mailto:caeadie9@gmail.com&quot; class=&quot;link-item&quot;&gt;Email&lt;/a&gt;
+        &lt;div class=&quot;content-container w-100&quot;&gt;
+            &lt;div class=&quot;d-flex&quot;&gt;
+                &lt;div class=&quot;link-container&quot;&gt;
+                    &lt;a href=&quot;https://www.instagram.com/chris_eadie/&quot; class=&quot;link-item&quot;&gt;Instagram&lt;/a&gt;
+                    &lt;a href=&quot;https://www.youtube.com/@chriseadie7089&quot; class=&quot;link-item&quot;&gt;Youtube&lt;/a&gt;
+                    &lt;a href=&quot;https://chriseadie.com/blog/data-driven-post-1.html&quot; class=&quot;link-item&quot;&gt;TikTok&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;link-container&quot;&gt;
+                    &lt;a href=&quot;mailto:caeadie9@gmail.com&quot; class=&quot;link-item&quot;&gt;Email&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/section&gt;
     &lt;footer&gt;
