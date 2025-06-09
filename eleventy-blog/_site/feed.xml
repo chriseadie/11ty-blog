@@ -18,10 +18,11 @@
     &lt;meta name=&quot;description&quot; content=&quot;Software engineer expeienced in creating immersive front end web apps and highly scalable backend microservices&quot;&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;data driven post 5 | Chris Eadie | Software Engineer&quot;&gt;
     &lt;title&gt;data driven post 5 | Chris Eadie | Software Engineer&lt;/title&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://chriseadie.com/styles/main.css&quot;&gt;
     &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
     &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin=&quot;&quot;&gt;
     &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+    
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://chriseadie.com/styles/main.css&quot;&gt;
 
 &lt;/head&gt;
 
@@ -39,9 +40,48 @@
     &lt;/header&gt;
 
     
-data driven post 5
-&lt;br&gt;
-this is good content ya
+&lt;div class=&quot;content-container&quot;&gt;
+  &lt;div style=&quot;background-image: url(&#39;https://plus.unsplash.com/premium_photo-1684179641331-e89c6320b6a9?w=400&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;q=60&amp;amp;ixlib=rb-4.0.3&amp;amp;ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNXx8fGVufDB8fHx8fA%3D%3D&#39;)&quot; class=&quot;image-banner&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;content-container-slim&quot;&gt;
+    &lt;h1&gt;data driven post 5&lt;/h1&gt;
+    &lt;div class=&quot;content-container-thin&quot;&gt;
+      
+        
+          
+            &lt;p class=&quot;p-start&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique tempus ligula, at semper magna gravida vel. Proin dapibus odio risus, ac egestas arcu convallis sit amet. Donec vel rutrum turpis, ut varius elit. Nulla iaculis arcu at enim malesuada, ac dapibus nunc lacinia. Cras vitae risus a dui porttitor tincidunt. Donec tincidunt lorem ut lacinia maximus. Nunc pulvinar mi quis eros aliquet sollicitudin. Proin euismod odio in lacus dapibus, non suscipit libero scelerisque. Morbi posuere et arcu id vulputate. Praesent sit amet lobortis arcu, ultricies feugiat sapien. Phasellus sed posuere sem. Nam nec dui est. Vivamus et ipsum at sem aliquet tincidunt vel ac metus. Etiam et pellentesque orci, maximus molestie turpis. Suspendisse consectetur nisl dolor, et hendrerit ligula bibendum vitae. Nam tincidunt lectus in nibh accumsan feugiat.&lt;/p&gt;
+          
+        
+        
+
+      
+        
+        
+          &lt;div class=&quot;blog-image-container&quot;&gt;
+            &lt;img src=&quot;https://images.unsplash.com/photo-1746254774131-f94b3d6b84d6?w=500&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;q=60&amp;amp;ixlib=rb-4.0.3&amp;amp;ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D&quot;&gt;
+          &lt;/div&gt;
+        
+
+      
+        
+          
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique tempus ligula, at semper magna gravida vel. Proin dapibus odio risus, ac egestas arcu convallis sit amet. Donec vel rutrum turpis, ut varius elit. Nulla iaculis arcu at enim malesuada, ac dapibus nunc lacinia. Cras vitae risus a dui porttitor tincidunt. Donec tincidunt lorem ut lacinia maximus. Nunc pulvinar mi quis eros aliquet sollicitudin. Proin euismod odio in lacus dapibus, non suscipit libero scelerisque. Morbi posuere et arcu id vulputate. Praesent sit amet lobortis arcu, ultricies feugiat sapien. Phasellus sed posuere sem. Nam nec dui est. Vivamus et ipsum at sem aliquet tincidunt vel ac metus. Etiam et pellentesque orci, maximus molestie turpis. Suspendisse consectetur nisl dolor, et hendrerit ligula bibendum vitae. Nam tincidunt lectus in nibh accumsan feugiat.&lt;/p&gt;
+          
+        
+        
+
+      
+        
+          
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique tempus ligula, at semper magna gravida vel. Proin dapibus odio risus, ac egestas arcu convallis sit amet. Donec vel rutrum turpis, ut varius elit. Nulla iaculis arcu at enim malesuada, ac dapibus nunc lacinia. Cras vitae risus a dui porttitor tincidunt. Donec tincidunt lorem ut lacinia maximus. Nunc pulvinar mi quis eros aliquet sollicitudin. Proin euismod odio in lacus dapibus, non suscipit libero scelerisque. Morbi posuere et arcu id vulputate. Praesent sit amet lobortis arcu, ultricies feugiat sapien. Phasellus sed posuere sem. Nam nec dui est. Vivamus et ipsum at sem aliquet tincidunt vel ac metus. Etiam et pellentesque orci, maximus molestie turpis. Suspendisse consectetur nisl dolor, et hendrerit ligula bibendum vitae. Nam tincidunt lectus in nibh accumsan feugiat.&lt;/p&gt;
+          
+        
+        
+
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;buffer&quot;&gt;&lt;/div&gt;
 
 
     &lt;section id=&quot;newsletter&quot;&gt;
@@ -74,6 +114,7 @@ this is good content ya
     &lt;footer&gt;
         © &lt;span id=&quot;copyright-year&quot;&gt;&lt;/span&gt;, ChrisEadie.com
     &lt;/footer&gt;
+    
     &lt;script&gt;document.querySelector(&quot;#copyright-year&quot;).textContent = new Date().getFullYear()&lt;/script&gt;
 &lt;/body&gt;
 
@@ -94,10 +135,11 @@ this is good content ya
     &lt;meta name=&quot;description&quot; content=&quot;Software engineer expeienced in creating immersive front end web apps and highly scalable backend microservices&quot;&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;data driven post 4 | Chris Eadie | Software Engineer&quot;&gt;
     &lt;title&gt;data driven post 4 | Chris Eadie | Software Engineer&lt;/title&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://chriseadie.com/styles/main.css&quot;&gt;
     &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
     &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin=&quot;&quot;&gt;
     &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+    
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://chriseadie.com/styles/main.css&quot;&gt;
 
 &lt;/head&gt;
 
@@ -115,9 +157,18 @@ this is good content ya
     &lt;/header&gt;
 
     
-data driven post 4
-&lt;br&gt;
-this is good content ya
+&lt;div class=&quot;content-container&quot;&gt;
+  &lt;div style=&quot;background-image: url(&#39;&#39;)&quot; class=&quot;image-banner&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;content-container-slim&quot;&gt;
+    &lt;h1&gt;data driven post 4&lt;/h1&gt;
+    &lt;div class=&quot;content-container-thin&quot;&gt;
+      
+        &lt;h1&gt;TEMPLATE WAS CONSTRUCTED WRONT YOU IDIOT&lt;/h1&gt;
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;buffer&quot;&gt;&lt;/div&gt;
 
 
     &lt;section id=&quot;newsletter&quot;&gt;
@@ -150,6 +201,7 @@ this is good content ya
     &lt;footer&gt;
         © &lt;span id=&quot;copyright-year&quot;&gt;&lt;/span&gt;, ChrisEadie.com
     &lt;/footer&gt;
+    
     &lt;script&gt;document.querySelector(&quot;#copyright-year&quot;).textContent = new Date().getFullYear()&lt;/script&gt;
 &lt;/body&gt;
 
@@ -170,10 +222,11 @@ this is good content ya
     &lt;meta name=&quot;description&quot; content=&quot;Software engineer expeienced in creating immersive front end web apps and highly scalable backend microservices&quot;&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;data driven post 3 | Chris Eadie | Software Engineer&quot;&gt;
     &lt;title&gt;data driven post 3 | Chris Eadie | Software Engineer&lt;/title&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://chriseadie.com/styles/main.css&quot;&gt;
     &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
     &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin=&quot;&quot;&gt;
     &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+    
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://chriseadie.com/styles/main.css&quot;&gt;
 
 &lt;/head&gt;
 
@@ -191,9 +244,18 @@ this is good content ya
     &lt;/header&gt;
 
     
-data driven post 3
-&lt;br&gt;
-this is good content ya
+&lt;div class=&quot;content-container&quot;&gt;
+  &lt;div style=&quot;background-image: url(&#39;&#39;)&quot; class=&quot;image-banner&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;content-container-slim&quot;&gt;
+    &lt;h1&gt;data driven post 3&lt;/h1&gt;
+    &lt;div class=&quot;content-container-thin&quot;&gt;
+      
+        &lt;h1&gt;TEMPLATE WAS CONSTRUCTED WRONT YOU IDIOT&lt;/h1&gt;
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;buffer&quot;&gt;&lt;/div&gt;
 
 
     &lt;section id=&quot;newsletter&quot;&gt;
@@ -226,6 +288,7 @@ this is good content ya
     &lt;footer&gt;
         © &lt;span id=&quot;copyright-year&quot;&gt;&lt;/span&gt;, ChrisEadie.com
     &lt;/footer&gt;
+    
     &lt;script&gt;document.querySelector(&quot;#copyright-year&quot;).textContent = new Date().getFullYear()&lt;/script&gt;
 &lt;/body&gt;
 
@@ -246,10 +309,11 @@ this is good content ya
     &lt;meta name=&quot;description&quot; content=&quot;Software engineer expeienced in creating immersive front end web apps and highly scalable backend microservices&quot;&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;data driven post 2 | Chris Eadie | Software Engineer&quot;&gt;
     &lt;title&gt;data driven post 2 | Chris Eadie | Software Engineer&lt;/title&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://chriseadie.com/styles/main.css&quot;&gt;
     &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
     &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin=&quot;&quot;&gt;
     &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+    
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://chriseadie.com/styles/main.css&quot;&gt;
 
 &lt;/head&gt;
 
@@ -267,9 +331,18 @@ this is good content ya
     &lt;/header&gt;
 
     
-data driven post 2
-&lt;br&gt;
-this is good content ya
+&lt;div class=&quot;content-container&quot;&gt;
+  &lt;div style=&quot;background-image: url(&#39;&#39;)&quot; class=&quot;image-banner&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;content-container-slim&quot;&gt;
+    &lt;h1&gt;data driven post 2&lt;/h1&gt;
+    &lt;div class=&quot;content-container-thin&quot;&gt;
+      
+        &lt;h1&gt;TEMPLATE WAS CONSTRUCTED WRONT YOU IDIOT&lt;/h1&gt;
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;buffer&quot;&gt;&lt;/div&gt;
 
 
     &lt;section id=&quot;newsletter&quot;&gt;
@@ -302,6 +375,7 @@ this is good content ya
     &lt;footer&gt;
         © &lt;span id=&quot;copyright-year&quot;&gt;&lt;/span&gt;, ChrisEadie.com
     &lt;/footer&gt;
+    
     &lt;script&gt;document.querySelector(&quot;#copyright-year&quot;).textContent = new Date().getFullYear()&lt;/script&gt;
 &lt;/body&gt;
 
@@ -322,10 +396,11 @@ this is good content ya
     &lt;meta name=&quot;description&quot; content=&quot;Software engineer expeienced in creating immersive front end web apps and highly scalable backend microservices&quot;&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;data driven post 1 | Chris Eadie | Software Engineer&quot;&gt;
     &lt;title&gt;data driven post 1 | Chris Eadie | Software Engineer&lt;/title&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://chriseadie.com/styles/main.css&quot;&gt;
     &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
     &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin=&quot;&quot;&gt;
     &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+    
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://chriseadie.com/styles/main.css&quot;&gt;
 
 &lt;/head&gt;
 
@@ -343,9 +418,18 @@ this is good content ya
     &lt;/header&gt;
 
     
-data driven post 1
-&lt;br&gt;
-this is good content ya
+&lt;div class=&quot;content-container&quot;&gt;
+  &lt;div style=&quot;background-image: url(&#39;&#39;)&quot; class=&quot;image-banner&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;content-container-slim&quot;&gt;
+    &lt;h1&gt;data driven post 1&lt;/h1&gt;
+    &lt;div class=&quot;content-container-thin&quot;&gt;
+      
+        &lt;h1&gt;TEMPLATE WAS CONSTRUCTED WRONT YOU IDIOT&lt;/h1&gt;
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;buffer&quot;&gt;&lt;/div&gt;
 
 
     &lt;section id=&quot;newsletter&quot;&gt;
@@ -378,6 +462,7 @@ this is good content ya
     &lt;footer&gt;
         © &lt;span id=&quot;copyright-year&quot;&gt;&lt;/span&gt;, ChrisEadie.com
     &lt;/footer&gt;
+    
     &lt;script&gt;document.querySelector(&quot;#copyright-year&quot;).textContent = new Date().getFullYear()&lt;/script&gt;
 &lt;/body&gt;
 

@@ -17,6 +17,26 @@
     },
     {
         "title":"data driven post 5",
-        "content": "this is good content ya"
+        "content": "this is good content ya",
+        "imageBanner":"https://plus.unsplash.com/premium_photo-1684179641331-e89c6320b6a9?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNXx8fGVufDB8fHx8fA%3D%3D",
+        "template":[
+            {
+                "index":"0",
+                "type":"text",
+                "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique tempus ligula, at semper magna gravida vel. Proin dapibus odio risus, ac egestas arcu convallis sit amet. Donec vel rutrum turpis, ut varius elit. Nulla iaculis arcu at enim malesuada, ac dapibus nunc lacinia. Cras vitae risus a dui porttitor tincidunt. Donec tincidunt lorem ut lacinia maximus. Nunc pulvinar mi quis eros aliquet sollicitudin. Proin euismod odio in lacus dapibus, non suscipit libero scelerisque. Morbi posuere et arcu id vulputate. Praesent sit amet lobortis arcu, ultricies feugiat sapien. Phasellus sed posuere sem. Nam nec dui est. Vivamus et ipsum at sem aliquet tincidunt vel ac metus. Etiam et pellentesque orci, maximus molestie turpis. Suspendisse consectetur nisl dolor, et hendrerit ligula bibendum vitae. Nam tincidunt lectus in nibh accumsan feugiat."
+            },
+            {
+                "type":"image",
+                "src": "https://images.unsplash.com/photo-1746254774131-f94b3d6b84d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D"
+            },
+            {
+                "type":"text",
+                "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique tempus ligula, at semper magna gravida vel. Proin dapibus odio risus, ac egestas arcu convallis sit amet. Donec vel rutrum turpis, ut varius elit. Nulla iaculis arcu at enim malesuada, ac dapibus nunc lacinia. Cras vitae risus a dui porttitor tincidunt. Donec tincidunt lorem ut lacinia maximus. Nunc pulvinar mi quis eros aliquet sollicitudin. Proin euismod odio in lacus dapibus, non suscipit libero scelerisque. Morbi posuere et arcu id vulputate. Praesent sit amet lobortis arcu, ultricies feugiat sapien. Phasellus sed posuere sem. Nam nec dui est. Vivamus et ipsum at sem aliquet tincidunt vel ac metus. Etiam et pellentesque orci, maximus molestie turpis. Suspendisse consectetur nisl dolor, et hendrerit ligula bibendum vitae. Nam tincidunt lectus in nibh accumsan feugiat."
+            },
+            {
+                "type":"text",
+                "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique tempus ligula, at semper magna gravida vel. Proin dapibus odio risus, ac egestas arcu convallis sit amet. Donec vel rutrum turpis, ut varius elit. Nulla iaculis arcu at enim malesuada, ac dapibus nunc lacinia. Cras vitae risus a dui porttitor tincidunt. Donec tincidunt lorem ut lacinia maximus. Nunc pulvinar mi quis eros aliquet sollicitudin. Proin euismod odio in lacus dapibus, non suscipit libero scelerisque. Morbi posuere et arcu id vulputate. Praesent sit amet lobortis arcu, ultricies feugiat sapien. Phasellus sed posuere sem. Nam nec dui est. Vivamus et ipsum at sem aliquet tincidunt vel ac metus. Etiam et pellentesque orci, maximus molestie turpis. Suspendisse consectetur nisl dolor, et hendrerit ligula bibendum vitae. Nam tincidunt lectus in nibh accumsan feugiat."
+            }
+        ]
     }
 ]

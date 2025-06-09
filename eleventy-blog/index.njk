@@ -47,7 +47,7 @@ title: chriseadie.com
         {%- for post in collections.snippet | reverse | limit(4) -%}
             <a href="{{post.data.link}}" class="link-card">
                 <div class="p-1">
-                    <div style="background-image: url('https://images.unsplash.com/photo-1746254538152-2420e6b0a9dc?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" class="link-image"></div>
+                    <div style="background-image: url('{{post.data.thumbnail}}')" class="link-image"></div>
                     <div class="p-1">
                         {{ post.data.title }}
                     </div>

@@ -9,14 +9,28 @@ permalink: "/snippet/{{snip.title | slugify }}.html"
 eleventyComputed:
   title: "{{ snip.title }}"
   link: "/snippet/{{snip.title | slugify}}"
+  thumbnail: "{{snip.thumbnail}}"
 ---
 
 {% extends "components/base.njk"%}
 
 {% block content %}
-{{snip.title}}
-<br/>
-<code>
-    <pre>{{snip.content}}</pre>
-</code>
+{% block styles %}
+  <link rel="stylesheet" href="/styles/prism.css" />
+{%endblock%}
+<div class="content-container">
+  <div class="content-container-slim">
+    <h1 class="text-center">{{snip.title}}</h1>
+    <br/>
+    <div class="content-container-thin">
+      <pre rel="CSS" class="pre-code-block">
+          <code class="language-{{snip.lang}}">{{snip.content}}</code>
+      </pre>
+    </div>
+  </div>
+</div>
+<div class="buffer"></div>
+{% block scripts %}
+  <script src="/javascript/prismjs.js"></script>
+{%endblock%}
 {% endblock %}

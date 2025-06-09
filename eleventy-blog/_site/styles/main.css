@@ -4,6 +4,9 @@ body {
     background: whitesmoke;
 }
 
+.pre-code-block{
+    border-radius: 10px;
+}
 p {
     margin-top: 2px;
     margin-bottom: 2px;
@@ -37,6 +40,13 @@ h6 {
     font-family: "eadiesans";
     src:
         url("/assets/DMSans-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "eadiesans-bold";
+    src:
+        url("/assets/DMSans-Bold.ttf");
     font-weight: bold;
 }
 
@@ -52,6 +62,9 @@ hr {
     padding: 0;
 }
 
+.text-center{
+    text-align: center;
+}
 
 .w-100 {
     width: 100%;
@@ -82,6 +95,52 @@ hr {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+.content-container-slim {
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 120%;
+}
+.content-container-thin {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 120%;
+}
+
+.content-container-slim .p-start:first-of-type:first-letter {
+    float: left;
+    font-size: 117px;
+    margin-right: 10px;
+    line-height: 93px;
+}
+
+.content-container-slim p,
+.content-container-slim a,
+.content-container-slim footer,
+.content-container-slim label {
+    font-family: Georgia;
+}
+
+.content-container-slim p{
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+.content-container-slim h1,
+.content-container-slim h2,
+.content-container-slim h3,
+.content-container-slim h4,
+.content-container-slim h5,
+.content-container-slim h6 {
+    font-family: eadiesans-bold;
+    font-size: 50px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin:revert;
+}
+
 
 /* removing styles from buttons */
 .no-style {
@@ -153,7 +212,7 @@ header{
     flex-direction: column;
     align-items: center;
     font-family: eadiesans;
-    font-weight: 600;
+    font-weight: bolder;
     font-size: 50px;
     justify-content: center;
 }
@@ -237,4 +296,24 @@ footer {
     align-items: center;
     justify-content: center;
     border-top: 1px solid black;
+}
+
+.image-banner{
+    height:400px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.blog-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.buffer{
+    margin-bottom:40px;
 }

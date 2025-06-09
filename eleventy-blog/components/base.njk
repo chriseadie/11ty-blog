@@ -7,21 +7,19 @@
     <meta name="description" content="Software engineer expeienced in creating immersive front end web apps and highly scalable backend microservices">
     <meta property="og:title" content="{{title}} | Chris Eadie | Software Engineer">
     <title>{{title}} | Chris Eadie | Software Engineer</title>
-    <link rel="stylesheet" href="/styles/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    {% block styles %}{%endblock%}
+    <link rel="stylesheet" href="/styles/main.css">
 
 </head>
 
 <body>
     <header>
         <div class="menu-bar">
-            <div>
-                <button class="no-style">Menu</label>
-            </div>
             <div class="site-name">
-                <h1>Chris Eadie</h1>
+                <h1>Eadie</h1>
             </div>
         </div>
 
@@ -32,7 +30,7 @@
     <section id="newsletter">
         <div class="content-container">
             <div class="newsletter">
-                <p class="pr-2">Join the newsletter if I ever decide to release one</p>
+                <p class="pr-2">Join the newsletter if we ever decide to release one</p>
                 <div class="form-container">
                     <form>
                         <input type="text" placeholder="Email Address"/>
@@ -42,7 +40,7 @@
             </div>
         </div>
     </section>
-    <section id="links">
+    {# <section id="links">
         <div class="content-container w-100">
             <div class="d-flex">
                 <div class="link-container">
@@ -55,10 +53,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> #}
     <footer>
-        © <span id="copyright-year"></span>, ChrisEadie.com
+        © <span id="copyright-year"></span>, blog.chriseadie.com
     </footer>
+    {% block scripts %}{%endblock%}
     <script>document.querySelector("#copyright-year").textContent = new Date().getFullYear()</script>
 </body>
 
